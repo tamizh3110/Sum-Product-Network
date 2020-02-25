@@ -1,0 +1,62 @@
+6  #_of_nodes
+          
+2  #_of_states_var_0
+tampering  var_label
+yes
+no
+1  1 #_of_children
+0  #_of_parents
+32 36  Coordinate
+2  #_of_probs
+0.02  0.98  
+
+2  #_of_states_var_1
+alarm  var_label
+yes
+no
+1  2 #_of_children
+2  0 4 #_of_parents
+251 101  Coordinate
+8  #_of_probs
+0.5  0.5  0.85  0.15  0.99  
+0.01  0.0010  0.999  
+
+2  #_of_states_var_2
+leaving  var_label
+yes
+no
+1  3 #_of_children
+1  1 #_of_parents
+299 186  Coordinate
+4  #_of_probs
+0.88  0.12  0.02  0.98  
+
+2  #_of_states_var_3
+report  var_label
+yes
+no
+0  #_of_children
+1  2 #_of_parents
+175 262  Coordinate
+4  #_of_probs
+0.75  0.25  0.01  0.99  
+
+2  #_of_states_var_4
+fire  var_label
+yes
+no
+2  1 5 #_of_children
+0  #_of_parents
+404 36  Coordinate
+2  #_of_probs
+0.01  0.99  
+
+2  #_of_states_var_5
+smoke  var_label
+yes
+no
+0  #_of_children
+1  4 #_of_parents
+576 106  Coordinate
+4  #_of_probs
+0.9  0.1  0.01  0.99  
